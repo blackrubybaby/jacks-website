@@ -1,0 +1,77 @@
+body {
+    font-family: 'Domine', sans-serif;
+    background-image: url('./music-notes.png');
+    background-repeat: repeat;
+}
+
+.header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.header h2 {
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.left-section {
+    width: 60%;
+}
+
+.right-section {
+    width: 35%;
+    text-align: center;
+}
+
+.right-section h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.contact-buttons a {
+    background-color: lightblue;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.achievements {
+    margin-top: 50px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+.achievements h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.achievements p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
