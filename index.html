@@ -1,41 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/5fe65193c7.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jack Meyers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-<header>
-    <h1>Jack Meyers</h1>
-    <p>Musician, Entertainer, Student</p>
-</header>
-<main>
-    <div class="left-section">
-        <!-- add slideshow code here -->
-    </div>
-    <div class="right-section">
-        <h2>Contact Me</h2>
-        <div class="buttons">
-            <a href="mailto:jackmeyerssaxophone@gmail.com" class="email">
-                <i class="fas fa-envelope"></i>
-            </a>
-            <a href="https://snapchat.com/add/jackmeyerssax" class="snapchat">
-                <i class="fab fa-snapchat"></i>
-            </a>
-            <a href="https://instagram.com/realjackmeyers" class="instagram">
-                <i class="fab fa-instagram"></i>
-            </a>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-center">
+                Jack Meyers
+            </h1>
+            <h3 class="text-center">
+                Musician, Entertainer, Student
+            </h3>
         </div>
     </div>
-    <section class="achievements">
-        <h2>Notable Achievements</h2>
-        <ul>
-            <li>
-                2023 George Benson Scholarship
+    <div class="row">
+        <div class="col-md-8">
+            <div class="carousel slide" id="carousel-538746">
+                <ol class="carousel-indicators">
+                    <li data-slide-to="0" data-target="#carousel-538746" class="active">
+                    </li>
+                    <li data-slide-to="1" data-target="#carousel-538746">
+                    </li>
+                    <li data-slide-to="2" data-target="#carousel-538746">
+                    </li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" alt="Jack Meyers Saxophone"
+                             src="/images/IMG_3902.JPG">
+                        <div class="carousel-caption">
+                            <h4>
+                                First Thumbnail label
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" alt="Jack Meyers Saxophone"
+                             src="/images/IMG_5936.jpg">
+                        <div class="carousel-caption">
+                            <h4>
+                                Second Thumbnail label
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" alt="Carousel Bootstrap Third"
+                             src="/images/IMG_5967.jpg">
+                        <div class="carousel-caption">
+                            <h4>
+                                Third Thumbnail label
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel-538746" data-slide="prev"><span
+                        class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a
+                    class="carousel-control-next" href="#carousel-538746" data-slide="next"><span
+                    class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+            </div>
+        </div>
+        <div class="col-md-4 text-center">
+            <h3>
+                Contact Me
+            </h3>
+            <button class="email-button">
+                <a href="mailto:jackmeyerssaxophone@gmail.com">
+                    <i class="fas fa-envelope"></i> Email
+                </a>
+            </button>
+            <button class="snapchat-button">
+                <a href="https://www.snapchat.com/add/jackmeyerssax">
+                    <i class="fab fa-snapchat"></i> Snapchat
+                </a>
+            </button>
+            <button class="instagram-button">
+                <a href="https://www.instagram.com/realjackmeyers">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+            </button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="text-center">
+                Notable Achievements
+            </h3>
+            <div>
+                <h4>
+                    2023 George Benson Scholarship
+                </h4>
                 <p>
                     The George Benson Honorary Scholarship is an award presented annually at the Scottsdale Community
                     College (SCC) Music Department Showcase. The scholarship is named after the 10-time Grammy Award
@@ -44,18 +107,22 @@
                         href="https://www.scottsdalecc.edu/news/2023/grammy-award-winner-george-benson-performs-sccs-11th-anniversary-music-department-showcase-feb-11">click
                     here</a>.
                 </p>
-            </li>
-            <li>
-                2022 Louis Armstrong Jazz Award
+            </div>
+            <div>
+                <h4>
+                    2022 Louis Armstrong Jazz Award
+                </h4>
                 <p>
                     The Louis Armstrong Jazz Award is an award that is given out to recognize and honor high school jazz
                     musicians for their contributions to the genre. The award is named after the legendary jazz musician
                     Louis Armstrong. The award is typically presented to musicians who have made significant
                     contributions to the jazz community. The award honors one high school student per year.
                 </p>
-            </li>
-            <li>
-                AMEA Allstate 2nd Chair Tenor Saxophone 2022
+            </div>
+            <div>
+                <h4>
+                    AMEA Allstate 2nd Chair Tenor Saxophone 2022
+                </h4>
                 <p>
                     An award given out by the Arizona Music Educators Association (AMEA) to recognize and honor the top
                     high school tenor saxophonists in the state of Arizona. The award is given out as part of the AMEA
@@ -64,9 +131,11 @@
                     given to students who have demonstrated exceptional skill and talent on the tenor saxophone, as well
                     as dedication to their music development and a strong work ethic.
                 </p>
-            </li>
-            <li>
-                AMEA Regional Festival Participant 2019-2021
+            </div>
+            <div>
+                <h4>
+                    AMEA Regional Festival Participant 2019-2021
+                </h4>
                 <p>
                     Participation in the Arizona Music Educators Association (AMEA) Regional Festival on tenor saxophone
                     is an opportunity for high school students in Arizona to showcase their musical talents and skills.
@@ -76,9 +145,12 @@
                     for high school musicians in Arizona to gain recognition and to further develop their musical
                     talents and skills.
                 </p>
-            </li>
-        </ul>
-    </section>
-</main>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/5fe65193c7.js" crossorigin="anonymous"></script>
 </body>
 </html>
